@@ -112,7 +112,7 @@ textarea {
 }
 
 body {
-	background: #FFFFE8;
+	background: #FCFFDE;
 }
 
 a {
@@ -840,8 +840,13 @@ span + .edit-link:before,
 }
 
 #site-header {
+	background-color: #ffffff;
 	position: relative;
 	z-index: 3;
+}
+
+#site-header img {
+	margin:auto;
 }
 
 .site-header {

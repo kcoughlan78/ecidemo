@@ -7,40 +7,37 @@
  * @since Brickbox 1.0
  */
 
-get_header();?>
-<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<button class="menu-toggle"><?php _e( 'Primary Menu', 'brickbox' ); ?></button>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'brickbox' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav>
+get_header(); ?>
+<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<?php get_search_form(); ?>
+			</div>
+		</div>
+</header><!-- #masthead -->
 
-<div id="main-content" class="main-content">
-<p>fuck</p>
+	<div id="main" class="site-main">
 <?php
-	if ( is_front_page() && brickbox_has_featured_posts() ) {
-		// Include the featured content template.
-		get_template_part( 'featured-content' );
-	}
+echo do_shortcode('[smartslider2 slider="1"]');
 ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-			<?php
-				// Start the Loop.
-				while ( have_posts() ) : the_post();
 
-					// Include the page content template.
-					get_template_part( 'content', 'page' );
+<ul class="gridBox">
+<a href="http://esztercoughlaninterior.dev:8888/interior-design-consultancy/"><li class="largeBox" id="InteriorDesignConsultancy"><span class="boxSpan">Interior Design Consultancy</span></li></a>
+<a href="http://esztercoughlaninterior.dev:8888/our-packages/"><li class="medBox" id="OurPackages"><span class="boxSpan">Our Packages</span></li></a>
+<a href="http://esztercoughlaninterior.dev:8888/booking/"><li class="smallBox" id="Booking"><span class="boxSpan">Book an appointment</span></li></a>
+<a href="http://esztercoughlaninterior.dev:8888/about-us/"><li class="smallBox" id="AboutUs"><span class="boxSpan">About us</span></li></a>
+<a href="http://esztercoughlaninterior.dev:8888/home-design-blog/"><li class="medBox" id="HomeDesignBlog"><span class="boxSpan">Home Design Blog</span></li></a>
+</ul>
 
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					}
-				endwhile;
-			?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-</div><!-- #main-content -->
-
+<section class="rightBox">
+<h2>Find me on...</h2>
+<ul id="socialIcons">
+<li id="polyvore">&nbsp;</li>
+<li id="twitter">&nbsp;</li>
+<li id="facebook">&nbsp;</li>
+<li id="tumblr">&nbsp;</li>
+</ul>
+</section>
+	
 <?php
 get_footer();
