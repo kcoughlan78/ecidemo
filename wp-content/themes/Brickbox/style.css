@@ -112,7 +112,7 @@ textarea {
 }
 
 body {
-	background: #f5f5f5;
+	background: #FFFFE8;
 }
 
 a {
@@ -818,8 +818,8 @@ span + .edit-link:before,
  */
 
 .site {
-	background-color: #fff;
-	max-width: 1260px;
+	background-color: #FFFBC4;
+	max-width: 2560px;
 	position: relative;
 }
 
@@ -845,8 +845,8 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #000;
-	max-width: 1260px;
+	background-color: #6e4d67;
+	max-width: 2560px;
 	position: relative;
 	width: 100%;
 	z-index: 4;
@@ -867,13 +867,13 @@ span + .edit-link:before,
 
 .site-title a,
 .site-title a:hover {
-	color: #fff;
+	color: #aaaecd;
 }
 
 /* Search in the header */
 
 .search-toggle {
-	background-color: #24890d;
+	background-color: #2a3483;
 	cursor: pointer;
 	float: right;
 	height: 48px;
@@ -884,7 +884,7 @@ span + .edit-link:before,
 
 .search-toggle:hover,
 .search-toggle.active {
-	background-color: #41a62a;
+	background-color: #aaaecd;
 }
 
 .search-toggle:before {
@@ -910,7 +910,7 @@ span + .edit-link:before,
 }
 
 .search-box {
-	background-color: #41a62a;
+	background-color: #aaaecd;
 	padding: 12px;
 }
 
@@ -1053,7 +1053,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 474px;
+	max-width: 66%;
 }
 
 .page-content {
@@ -2742,7 +2742,7 @@ a.post-thumbnail:hover {
 }
 
 .site-footer {
-	background-color: #000;
+	background-color: #6e4d67;
 	font-size: 12px;
 	position: relative;
 	z-index: 3;
@@ -3086,6 +3086,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 401px) {
+	#main-content {
+		min-height: 300px;
+	}
+	
 	a.post-thumbnail:hover img {
 		opacity: 0.85;
 	}
@@ -3214,6 +3218,9 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 594px) {
+	#main-content {
+		min-height: 450px;
+	}
 	.site-content .entry-header {
 		padding-right: 30px;
 		padding-left: 30px;
@@ -3225,6 +3232,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 673px) {
+	#main-content {
+		min-height: 500px;
+	}
+	
 	.header-main {
 		padding: 0 30px;
 	}
@@ -3360,6 +3371,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 783px) {
+	#main-content {
+		min-height: 560px;
+	}
+	
 	.header-main {
 		padding-right: 0;
 	}
@@ -3515,6 +3530,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 810px) {
+	#main-content {
+		min-height: 580px;
+	}
+	
 	.attachment .entry-attachment .attachment {
 		margin-right: -168px;
 		margin-left: -168px;
@@ -3566,6 +3585,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 846px) {
+	#main-content {
+		min-height: 660px;
+	}
+	
 	.content-area,
 	.content-sidebar {
 		padding-top: 72px;
@@ -3611,6 +3634,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1008px) {
+	#main-content {
+		min-height: 670px;
+	}
+	
 	.search-box-wrapper {
 		padding-left: 182px;
 	}
@@ -3966,6 +3993,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1040px) {
+	#main-content {
+		min-height: 685px;
+	}
+	
 	.site-content .has-post-thumbnail .entry-header {
 		margin-top: -48px;
 	}
@@ -4000,6 +4031,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1080px) {
+	#main-content {
+		min-height: 695px;
+	}
+	
 	.search-box .search-field {
 		width: 324px;
 	}
@@ -4057,6 +4092,11 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1110px) {
+	
+	#main-content {
+		min-height: 710px;
+	}
+	
 	.archive-header,
 	.comments-area,
 	.image-navigation,
@@ -4073,6 +4113,10 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1218px) {
+	#main-content {
+		min-height: 760px;
+	}
+	
 	.archive-header,
 	.comments-area,
 	.image-navigation,
@@ -4101,10 +4145,29 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1260px) {
+	#main-content {
+		min-height: 900px;
+	}
 	.site-content blockquote.alignleft,
 	.site-content blockquote.alignright {
 		width: -webkit-calc(50% + 18px);
 		width:         calc(50% + 18px);
+	}
+
+	.site-content blockquote.alignleft {
+		margin-left: -18%;
+	}
+
+	.site-content blockquote.alignright {
+		margin-right: -18%;
+	}
+}
+
+@media screen and (min-width: 1660px) {
+	.site-content blockquote.alignleft,
+	.site-content blockquote.alignright {
+		width: -webkit-calc(50% + 28px);
+		width:         calc(50% + 28px);
 	}
 
 	.site-content blockquote.alignleft {
