@@ -8,7 +8,7 @@ Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
-Text Domain: twentyfourteen
+Text Domain: brickbox
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -791,7 +791,7 @@ div.wp-caption.alignright .wp-caption-text {
 .menu-toggle:before,
 .search-toggle:before,
 .slider-direction-nav a:before,
-.widget_twentyfourteen_ephemera .widget-title:before {
+.widget_brickbox_ephemera .widget-title:before {
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	font: normal 16px/1 Genericons;
@@ -807,7 +807,7 @@ div.wp-caption.alignright .wp-caption-text {
 span + .byline:before,
 span + .comments-link:before,
 span + .edit-link:before,
-.widget_twentyfourteen_ephemera .entry-title:after {
+.widget_brickbox_ephemera .entry-title:after {
 	content: "\0020\007c\0020";
 }
 
@@ -2090,6 +2090,17 @@ a.post-thumbnail:hover {
 	padding-top: 0;
 }
 
+/* Blog Sidebar */
+
+.blog-sidebar {
+	padding-top: 48px;
+}
+
+.secondary-navigation + .blog-sidebar {
+	padding-top: 0;
+}
+
+
 /* Content Sidebar */
 
 .content-sidebar {
@@ -2360,67 +2371,67 @@ a.post-thumbnail:hover {
 
 /* Ephemera Widget*/
 
-.widget_twentyfourteen_ephemera > ol > li {
+.widget_brickbox_ephemera > ol > li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	margin-bottom: 18px;
 	padding: 0;
 }
 
-.widget_twentyfourteen_ephemera .hentry {
+.widget_brickbox_ephemera .hentry {
 	margin: 0;
 	max-width: 100%;
 }
 
-.widget_twentyfourteen_ephemera .entry-title,
-.widget_twentyfourteen_ephemera .entry-meta,
-.widget_twentyfourteen_ephemera .wp-caption-text,
-.widget_twentyfourteen_ephemera .post-format-archive-link,
-.widget_twentyfourteen_ephemera .entry-content table {
+.widget_brickbox_ephemera .entry-title,
+.widget_brickbox_ephemera .entry-meta,
+.widget_brickbox_ephemera .wp-caption-text,
+.widget_brickbox_ephemera .post-format-archive-link,
+.widget_brickbox_ephemera .entry-content table {
 	font-size: 12px;
 	line-height: 1.5;
 }
 
-.widget_twentyfourteen_ephemera .entry-title {
+.widget_brickbox_ephemera .entry-title {
 	display: inline;
 	font-weight: 400;
 }
 
-.widget_twentyfourteen_ephemera .entry-meta {
+.widget_brickbox_ephemera .entry-meta {
 	margin-bottom: 18px;
 }
 
-.widget_twentyfourteen_ephemera .entry-meta a {
+.widget_brickbox_ephemera .entry-meta a {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-.widget_twentyfourteen_ephemera .entry-meta a:hover {
+.widget_brickbox_ephemera .entry-meta a:hover {
 	color: #41a62a;
 }
 
-.widget_twentyfourteen_ephemera .entry-content ul,
-.widget_twentyfourteen_ephemera .entry-content ol {
+.widget_brickbox_ephemera .entry-content ul,
+.widget_brickbox_ephemera .entry-content ol {
 	margin: 0 0 18px 20px;
 }
 
-.widget_twentyfourteen_ephemera .entry-content ul {
+.widget_brickbox_ephemera .entry-content ul {
 	list-style: disc;
 }
 
-.widget_twentyfourteen_ephemera .entry-content ol {
+.widget_brickbox_ephemera .entry-content ol {
 	list-style: decimal;
 }
 
-.widget_twentyfourteen_ephemera .entry-content li > ul,
-.widget_twentyfourteen_ephemera .entry-content li > ol {
+.widget_brickbox_ephemera .entry-content li > ul,
+.widget_brickbox_ephemera .entry-content li > ol {
 	margin: 0 0 0 20px;
 }
 
-.widget_twentyfourteen_ephemera .entry-content th,
-.widget_twentyfourteen_ephemera .entry-content td {
+.widget_brickbox_ephemera .entry-content th,
+.widget_brickbox_ephemera .entry-content td {
 	padding: 6px;
 }
 
-.widget_twentyfourteen_ephemera .post-format-archive-link {
+.widget_brickbox_ephemera .post-format-archive-link {
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -2646,12 +2657,12 @@ a.post-thumbnail:hover {
 
 /* Ephemera widget*/
 
-.content-sidebar .widget_twentyfourteen_ephemera .widget-title {
+.content-sidebar .widget_brickbox_ephemera .widget-title {
 	line-height: 1.2857142857;
 	padding-top: 1px;
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .widget-title:before {
 	background-color: #000;
 	color: #fff;
 	margin: -1px 9px 0 0;
@@ -2661,56 +2672,56 @@ a.post-thumbnail:hover {
 	width: 36px;
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .video.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .video.widget-title:before {
 	content: "\f104";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .audio.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .audio.widget-title:before {
 	content: "\f109";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .image.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .image.widget-title:before {
 	content: "\f473";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .gallery.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .gallery.widget-title:before {
 	content: "\f103";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .aside.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .aside.widget-title:before {
 	content: "\f101";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .quote.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .quote.widget-title:before {
 	content: "\f106";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .link.widget-title:before {
+.content-sidebar .widget_brickbox_ephemera .link.widget-title:before {
 	content: "\f107";
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera > ol > li {
+.content-sidebar .widget_brickbox_ephemera > ol > li {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta {
+.content-sidebar .widget_brickbox_ephemera .entry-meta {
 	color: #ccc;
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a {
+.content-sidebar .widget_brickbox_ephemera .entry-meta a {
 	color: #767676;
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+.content-sidebar .widget_brickbox_ephemera .entry-meta a:hover {
 	color: #41a62a;
 }
 
-.content-sidebar.widget_twentyfourteen_ephemera blockquote cite {
+.content-sidebar.widget_brickbox_ephemera blockquote cite {
 	font-size: 13px;
 	line-height: 1.3846153846;
 }
 
-.content-sidebar .widget_twentyfourteen_ephemera .post-format-archive-link {
+.content-sidebar .widget_brickbox_ephemera .post-format-archive-link {
 	font-weight: 900;
 }
 
@@ -3639,6 +3650,10 @@ a.post-thumbnail:hover {
 	.primary-sidebar {
 		padding-top: 0;
 	}
+	
+	.blog-sidebar {
+		padding-top: 0;
+	}
 
 	.site-description {
 		display: block;
@@ -3709,7 +3724,8 @@ a.post-thumbnail:hover {
 	}
 
 	.footer-sidebar .widget,
-	.primary-sidebar .widget {
+	.primary-sidebar .widget,
+	.blog-sidebar .widget {
 		font-size: 12px;
 		line-height: 1.5;
 	}
@@ -3724,37 +3740,43 @@ a.post-thumbnail:hover {
 	}
 
 	.footer-sidebar .widget h1,
-	.primary-sidebar .widget h1 {
+	.primary-sidebar .widget h1,
+	.blog-sidebar .widget h1 {
 		font-size: 20px;
 		line-height: 1.2;
 	}
 
 	.footer-sidebar .widget h2,
-	.primary-sidebar .widget h2 {
+	.primary-sidebar .widget h2,
+	.blog-sidebar .widget h2 {
 		font-size: 18px;
 		line-height: 1.3333333333;
 	}
 
 	.footer-sidebar .widget h3,
-	.primary-sidebar .widget h3 {
+	.primary-sidebar .widget h3,
+	.blog-sidebar .widget h3 {
 		font-size: 16px;
 		line-height: 1.5;
 	}
 
 	.footer-sidebar .widget h4,
-	.primary-sidebar .widget h4 {
+	.primary-sidebar .widget h4,
+	.blog-sidebar .widget h4 {
 		font-size: 14px;
 		line-height: 1.7142857142;
 	}
 
 	.footer-sidebar .widget h5,
-	.primary-sidebar .widget h5 {
+	.primary-sidebar .widget h5,
+	.blog-sidebar .widget h5 {
 		font-size: 12px;
 		line-height: 2;
 	}
 
 	.footer-sidebar .widget h6,
-	.primary-sidebar .widget h6 {
+	.primary-sidebar .widget h6,
+	.blog-sidebar .widget h6 {
 		font-size: 11px;
 		line-height: 2.1818181818;
 	}
@@ -3770,19 +3792,27 @@ a.post-thumbnail:hover {
 	.primary-sidebar .widget tt,
 	.primary-sidebar .widget var,
 	.primary-sidebar .widget samp,
-	.primary-sidebar .widget pre {
+	.primary-sidebar .widget pre,
+	.blog-sidebar .widget code,
+	.blog-sidebar .widget kbd,
+	.blog-sidebar .widget tt,
+	.blog-sidebar .widget var,
+	.blog-sidebar .widget samp,
+	.blog-sidebar .widget pre {
 		font-size: 11px;
 		line-height: 1.6363636363;
 	}
 
 	.footer-sidebar .widget blockquote,
-	.primary-sidebar .widget blockquote {
+	.primary-sidebar .widget blockquote,
+	.blog-sidebar .widget blockquote {
 		font-size: 14px;
 		line-height: 1.2857142857;
 	}
 
 	.footer-sidebar .widget blockquote cite,
-	.primary-sidebar .widget blockquote cite {
+	.primary-sidebar .widget blockquote cite,
+	.blog-sidebar .widget blockquote cite {
 		font-size: 12px;
 		line-height: 1.5;
 	}
@@ -3790,7 +3820,9 @@ a.post-thumbnail:hover {
 	.footer-sidebar .widget input,
 	.footer-sidebar .widget textarea,
 	.primary-sidebar .widget input,
-	.primary-sidebar .widget textarea {
+	.primary-sidebar .widget textarea,
+	.blog-sidebar .widget input,
+	.blog-sidebar .widget textarea {
 		font-size: 12px;
 		padding: 3px 2px 4px 4px;
 	}
@@ -3800,28 +3832,37 @@ a.post-thumbnail:hover {
 	.footer-sidebar .widget input[type="submit"],
 	.primary-sidebar .widget input[type="button"],
 	.primary-sidebar .widget input[type="reset"],
-	.primary-sidebar .widget input[type="submit"] {
+	.primary-sidebar .widget input[type="submit"],
+	.blog-sidebar .widget input[type="button"],
+	.blog-sidebar .widget input[type="reset"],
+	.blog-sidebar .widget input[type="submit"] {
 		padding: 5px 15px 4px;
 	}
 
 	.footer-sidebar .widget .widget-title,
-	.primary-sidebar .widget .widget-title {
+	.primary-sidebar .widget .widget-title,
+	.blog-sidebar .widget .widget-title {
 		font-size: 11px;
 		font-weight: 900;
 		line-height: 1.6363636363;
 		margin-bottom: 18px;
 	}
 
-	.footer-sidebar .widget_twentyfourteen_ephemera .entry-title,
-	.footer-sidebar .widget_twentyfourteen_ephemera .entry-meta,
-	.footer-sidebar .widget_twentyfourteen_ephemera .wp-caption-text,
-	.footer-sidebar .widget_twentyfourteen_ephemera .post-format-archive-link,
-	.footer-sidebar .widget_twentyfourteen_ephemera .entry-content table,
-	.primary-sidebar .widget_twentyfourteen_ephemera .entry-title,
-	.primary-sidebar .widget_twentyfourteen_ephemera .entry-meta,
-	.primary-sidebar .widget_twentyfourteen_ephemera .wp-caption-text,
-	.primary-sidebar .widget_twentyfourteen_ephemera .post-format-archive-link,
-	.primary-sidebar .widget_twentyfourteen_ephemera .entry-content table {
+	.footer-sidebar .widget_brickbox_ephemera .entry-title,
+	.footer-sidebar .widget_brickbox_ephemera .entry-meta,
+	.footer-sidebar .widget_brickbox_ephemera .wp-caption-text,
+	.footer-sidebar .widget_brickbox_ephemera .post-format-archive-link,
+	.footer-sidebar .widget_brickbox_ephemera .entry-content table,
+	.primary-sidebar .widget_brickbox_ephemera .entry-title,
+	.primary-sidebar .widget_brickbox_ephemera .entry-meta,
+	.primary-sidebar .widget_brickbox_ephemera .wp-caption-text,
+	.primary-sidebar .widget_brickbox_ephemera .post-format-archive-link,
+	.primary-sidebar .widget_brickbox_ephemera .entry-content table,
+	.blog-sidebar .widget_brickbox_ephemera .entry-title,
+	.blog-sidebar .widget_brickbox_ephemera .entry-meta,
+	.blog-sidebar .widget_brickbox_ephemera .wp-caption-text,
+	.blog-sidebar .widget_brickbox_ephemera .post-format-archive-link,
+	.blog-sidebar .widget_brickbox_ephemera .entry-content table {
 		font-size: 11px;
 		line-height: 1.6363636363;
 	}
@@ -3841,7 +3882,15 @@ a.post-thumbnail:hover {
 	.primary-sidebar .widget_nav_menu li,
 	.primary-sidebar .widget_pages li,
 	.primary-sidebar .widget_recent_comments li,
-	.primary-sidebar .widget_recent_entries li {
+	.primary-sidebar .widget_recent_entries li,
+	.blog-sidebar .widget_archive li,
+	.blog-sidebar .widget_categories li,
+	.blog-sidebar .widget_links li,
+	.blog-sidebar .widget_meta li,
+	.blog-sidebar .widget_nav_menu li,
+	.blog-sidebar .widget_pages li,
+	.blog-sidebar .widget_recent_comments li,
+	.blog-sidebar .widget_recent_entries li {
 		border-top: 0;
 		padding: 0 0 6px;
 	}
@@ -3861,7 +3910,15 @@ a.post-thumbnail:hover {
 	.primary-sidebar .widget_nav_menu li:last-child,
 	.primary-sidebar .widget_pages li:last-child,
 	.primary-sidebar .widget_recent_comments li:last-child,
-	.primary-sidebar .widget_recent_entries li:last-child {
+	.primary-sidebar .widget_recent_entries li:last-child,
+	.blog-sidebar .widget_archive li:last-child,
+	.blog-sidebar .widget_categories li:last-child,
+	.blog-sidebar .widget_links li:last-child,
+	.blog-sidebar .widget_meta li:last-child,
+	.blog-sidebar .widget_nav_menu li:last-child,
+	.blog-sidebar .widget_pages li:last-child,
+	.blog-sidebar .widget_recent_comments li:last-child,
+	.blog-sidebar .widget_recent_entries li:last-child {
 		padding: 0;
 	}
 
@@ -3870,7 +3927,10 @@ a.post-thumbnail:hover {
 	.footer-sidebar .widget_pages li ul,
 	.primary-sidebar .widget_categories li ul,
 	.primary-sidebar .widget_nav_menu li ul,
-	.primary-sidebar .widget_pages li ul {
+	.primary-sidebar .widget_pages li ul,
+	.blog-sidebar .widget_categories li ul,
+	.blog-sidebar .widget_nav_menu li ul,
+	.blog-sidebar .widget_pages li ul {
 		border-top: 0;
 		margin-top: 6px;
 	}
