@@ -1,0 +1,433 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (min-width: 1601px) {
+
+.gridBox {
+  width: 1232px;
+  height: auto;
+  list-style: none;
+  margin-left: 1%;
+  float:left;
+}
+.gridBox li {
+  height: 252px;
+  margin: 7px;
+  display: inline-block;
+  border-top: 7px solid #300026;
+}
+.gridBox li .boxSpan {
+  display: inline-block;
+  padding: 2px;
+  background-color: #300026;
+  color: #ffffff;
+}
+.largeBox {
+  width: 1218px;
+  background-color: red;
+}
+.medBox {
+  width: 756px;
+  background-color: blue;
+}
+.smallBox {
+  width: 448px;
+  background-color: green;
+}
+
+#Booking {
+	background-image: url(../images/booking.jpg);
+	background-size:contain;
+}
+
+#HomeDesignBlog {
+	background-image: url(../images/home-blog.jpg);
+	background-size:contain;
+}
+
+#AboutUs {
+	background-image: url(../images/about-eci.jpg);
+	background-size:contain;
+}
+
+.rightBox {
+	margin-top: 5%;
+	float:right;
+	min-width: 308px;
+}
+
+#socialIcons {
+  	width: 308px;
+  	height: auto;
+  	list-style: none;
+	margin:auto;
+}
+
+#socialIcons li {
+  margin: 7px;
+  min-width: 128px;
+  min-height: 128px;
+  display: inline-block;
+}
+
+#polyvore {
+	background-image: url(../images/polyvore-128.png);
+}
+
+#facebook {
+	background-image: url(../images/Facebook-128.png);
+}
+
+#twitter {
+	background-image: url(../images/Twitter-128.png);
+}
+
+#tumblr {
+	background-image: url(../images/Tumblr-128.png);
+}
+}
+
+@media all and (max-width: 1600px) and (min-width: 1200px) {
+
+.gridBox {
+  width: 880px;
+  height: auto;
+  list-style: none;
+  margin-left: 1%;
+  float:left;
+}
+
+.gridBox li {
+  height: 180px;
+  margin: 5px;
+  display: inline-block;
+  border-top: 5px solid #300026;
+}
+.gridBox li .boxSpan {
+  display: inline-block;
+  padding: 2px;
+  background-color: #300026;
+  color: #ffffff;
+}
+.largeBox {
+  width: 870px;
+  background-color: red;
+}
+.medBox {
+  width: 535px;
+  background-color: blue;
+}
+.smallBox {
+  width: 320px;
+  background-color: green;
+}
+
+#Booking {
+	background-image: url(../images/booking.jpg);
+	background-size:contain;
+}
+
+#HomeDesignBlog {
+	background-image: url(../images/home-blog.jpg);
+	background-size:contain;
+}
+
+#AboutUs {
+	background-image: url(../images/about-eci.jpg);
+	background-size:contain;
+}
+
+.rightBox {
+	margin-top: 2%;
+	float:right;
+	min-width: 230px;
+}
+
+#socialIcons {
+  	width: 220px;
+  	height: auto;
+  	list-style: none;
+	margin:auto;
+}
+
+#socialIcons li {
+  margin: 5px;
+  display: inline-block;
+  min-width: 96px;
+  min-height: 96px;
+}
+
+#polyvore {
+	background-image: url(../images/polyvore-96.png);
+}
+
+#facebook {
+	background-image: url(../images/Facebook-96.png);
+}
+
+#twitter {
+	background-image: url(../images/Twitter-96.png);
+}
+
+#tumblr {
+	background-image: url(../images/Tumblr-96.png);
+}
+
+}
+
+@media all and (max-width: 1199px) and (min-width: 910px) {
+
+.gridBox {
+  width: 538px;
+  height: auto;
+  list-style: none;
+  margin-left: 2%;
+  float:left;
+}
+.gridBox li {
+  height: 108px;
+  margin: 3px;
+  display: inline-block;
+  border-top: 3px solid #300026;
+}
+.gridBox li .boxSpan {
+  display: inline-block;
+  padding: 2px;
+  background-color: #300026;
+  color: #ffffff;
+}
+.largeBox {
+  width: 525px;
+  background-color: red;
+}
+.medBox {
+  width: 324px;
+  background-color: blue;
+}
+.smallBox {
+  width: 192px;
+  background-color: green;
+}
+
+#Booking {
+	background-image: url(../images/booking.jpg);
+	background-size:contain;
+}
+
+#HomeDesignBlog {
+	background-image: url(../images/home-blog.jpg);
+	background-size:contain;
+}
+
+#AboutUs {
+	background-image: url(../images/about-eci.jpg);
+	background-size:contain;
+}
+
+.rightBox {
+	margin-top: 5%;
+  	margin-right: 20%;
+	float:right;
+	min-width: 150px;
+}
+
+#socialIcons {
+  	width: 150px;
+  	height: auto;
+  	list-style: none;
+}
+
+#socialIcons li {
+  margin: 2px;
+  display: inline-block; 
+  min-width: 64px;
+  min-height: 64px;
+}
+
+#polyvore {
+	background-image: url(../images/polyvore-64.png);
+}
+
+#facebook {
+	background-image: url(../images/Facebook-64.png);
+}
+
+#twitter {
+	background-image: url(../images/Twitter-64.png);
+}
+
+#tumblr {
+	background-image: url(../images/Tumblr-64.png);
+}
+
+
+}
+
+@media all and (max-width: 909px) and (min-width: 601px){
+
+.gridBox {
+  width: 538px;
+  height: auto;
+  list-style: none;
+  margin: auto;
+}
+.gridBox li {
+  height: 108px;
+  margin: 3px;
+  display: inline-block;
+  border-top: 3px solid #300026;
+}
+.gridBox li .boxSpan {
+  display: inline-block;
+  padding: 2px;
+  background-color: #300026;
+  color: #ffffff;
+}
+.largeBox {
+  width: 526px;
+  background-color: red;
+}
+.medBox {
+  width: 324px;
+  background-color: blue;
+}
+.smallBox {
+  width: 192px;
+  background-color: green;
+}
+
+#Booking {
+	background-image: url(../images/booking.jpg);
+	background-size:contain;
+}
+
+#HomeDesignBlog {
+	background-image: url(../images/home-blog.jpg);
+	background-size:contain;
+}
+
+#AboutUs {
+	background-image: url(../images/about-eci.jpg);
+	background-size:contain;
+}
+
+.rightBox {
+  	margin:auto;
+	max-width: 500px;
+}
+
+#socialIcons {
+  	width: 328px;
+  	height: auto;
+  	list-style: none;
+	margin: auto;
+}
+
+#socialIcons li {
+  margin: 7px;
+  min-width: 64px;
+  min-height: 64px;
+  display: inline-block;
+}
+
+#polyvore {
+	background-image: url(../images/polyvore-64.png);
+}
+
+#facebook {
+	background-image: url(../images/Facebook-64.png);
+}
+
+#twitter {
+	background-image: url(../images/Twitter-64.png);
+}
+
+#tumblr {
+	background-image: url(../images/Tumblr-64.png);
+}
+}
+
+@media all and (max-width: 600px){
+
+.gridBox {
+  width: 327px;
+  height: auto;
+  list-style: none;
+  font-size: 10px;
+  margin:auto;
+}
+.gridBox li {
+  height: 65px;
+  margin: 2px;
+  display: inline-block;
+  border-top: 5px solid #300026;
+}
+.gridBox li .boxSpan {
+  display: inline-block;
+  padding: 2px;
+  background-color: #300026;
+  color: #ffffff;
+}
+.largeBox {
+  width: 315px;
+  background-color: red;
+}
+.medBox {
+  width: 194px;
+  background-color: blue;
+}
+.smallBox {
+  width: 115px;
+  background-color: green;
+}
+
+#Booking {
+	background-image: url(../images/booking.jpg);
+	background-size:contain;
+}
+
+#HomeDesignBlog {
+	background-image: url(../images/home-blog.jpg);
+	background-size:contain;
+}
+
+#AboutUs {
+	background-image: url(../images/about-eci.jpg);
+	background-size:contain;
+}
+
+.rightBox {
+	margin: auto;
+	max-width:300px;
+}
+
+#socialIcons {
+  	width: 155px;
+  	height: auto;
+  	list-style: none;
+	margin:auto;
+}
+
+#socialIcons li {
+  margin: 2px;
+  display: inline-block;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+#polyvore {
+	background-image: url(../images/polyvore-32.png);
+}
+
+#facebook {
+	background-image: url(../images/Facebook-32.png);
+}
+
+#twitter {
+	background-image: url(../images/Twitter-32.png);
+}
+
+#tumblr {
+	background-image: url(../images/Tumblr-32.png);
+}
+}

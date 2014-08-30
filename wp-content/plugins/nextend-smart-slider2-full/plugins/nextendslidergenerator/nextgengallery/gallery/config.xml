@@ -1,0 +1,5 @@
+<root>
+    <params name="Nextgen_Gallery" label="Nextgen Gallery">
+        <param name="nggsourcegallery" label="Source gallery" type="nggalleries" default="" />
+    </params>
+</root>
