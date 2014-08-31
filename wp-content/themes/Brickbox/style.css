@@ -116,7 +116,7 @@ body {
 }
 
 a {
-	color: #24890d;
+	color: #aaaecd;
 	text-decoration: none;
 }
 
@@ -462,13 +462,13 @@ hr {
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
 ::selection {
-	background: #24890d;
+	background: #aaaecd;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #24890d;
+	background: #aaaecd;
 	color: #fff;
 	text-shadow: none;
 }
@@ -506,7 +506,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #24890d;
+	background-color: #aaaecd;
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
@@ -536,7 +536,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #aaaecd;
 }
 
 .search-field {
@@ -961,7 +961,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #55d737;
+	color: #aaaecd;
 	font-weight: 900;
 }
 
@@ -1352,7 +1352,7 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #24890d;
+	background: #aaaecd;
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -1645,7 +1645,7 @@ a.post-thumbnail:hover {
 }
 
 .paging-navigation .page-numbers.current {
-	border-top: 5px solid #24890d;
+	border-top: 5px solid #aaaecd;
 }
 
 .paging-navigation a:hover {
@@ -2283,7 +2283,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-	background-color: #24890d;
+	background-color: #aaaecd;
 	border: 0;
 	font-size: 12px;
 	padding: 5px 15px 4px;
@@ -2301,7 +2301,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #aaaecd;
 }
 
 .widget .wp-caption {
@@ -2352,7 +2352,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar tbody a {
-	background-color: #24890d;
+	background-color: #aaaecd;
 	color: #fff;
 	display: block;
 }
@@ -2520,7 +2520,7 @@ a.post-thumbnail:hover {
  */
 
 .content-sidebar .widget a {
-	color: #24890d;
+	color: #aaaecd;
 }
 
 .content-sidebar .widget a:hover {
@@ -2586,7 +2586,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-	background-color: #24890d;
+	background-color: #aaaecd;
 	border: 0;
 	color: #fff;
 }
@@ -2603,7 +2603,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #aaaecd;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -2911,7 +2911,7 @@ a.post-thumbnail:hover {
 
 .slider-control-paging .slider-active:before,
 .slider-control-paging .slider-active:hover:before {
-	background-color: #24890d;
+	background-color: #aaaecd;
 }
 
 .slider-direction-nav {
@@ -2947,7 +2947,7 @@ a.post-thumbnail:hover {
 }
 
 .slider-direction-nav a:hover {
-	background-color: #24890d;
+	background-color: #aaaecd;
 }
 
 .slider-direction-nav a:before {
@@ -3091,8 +3091,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 401px) {
-	#main-content {
-		min-height: 300px;
+	#main-content #secondary {
+		min-height: 240px;
 	}
 	
 	a.post-thumbnail:hover img {
@@ -3223,8 +3223,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 594px) {
-	#main-content {
-		min-height: 450px;
+	#main-content #secondary{
+		min-height: 360px;
 	}
 	.site-content .entry-header {
 		padding-right: 30px;
@@ -3237,8 +3237,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 673px) {
-	#main-content {
-		min-height: 500px;
+	#main-content #secondary{
+		min-height: 400px;
 	}
 	
 	.header-main {
@@ -3376,8 +3376,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 783px) {
-	#main-content {
-		min-height: 560px;
+	#main-content #secondary{
+		min-height: 448px;
 	}
 	
 	.header-main {
@@ -3453,7 +3453,7 @@ a.post-thumbnail:hover {
 	}
 
 	.primary-navigation ul ul {
-		background-color: #24890d;
+		background-color: #aaaecd;
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3482,7 +3482,7 @@ a.post-thumbnail:hover {
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
-		background-color: #24890d;
+		background-color: #aaaecd;
 		color: #fff;
 	}
 
@@ -3535,8 +3535,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 810px) {
-	#main-content {
-		min-height: 580px;
+	#main-content #secondary{
+		min-height: 464px;
 	}
 	
 	.attachment .entry-attachment .attachment {
@@ -3590,8 +3590,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 846px) {
-	#main-content {
-		min-height: 660px;
+	#main-content #secondary{
+		min-height: 528px;
 	}
 	
 	.content-area,
@@ -3639,8 +3639,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1008px) {
-	#main-content {
-		min-height: 670px;
+	#main-content #secondary {
+		min-height: 536px;
 	}
 	
 	.search-box-wrapper {
@@ -3670,7 +3670,7 @@ a.post-thumbnail:hover {
 	}
 
 	#secondary {
-		background-color: transparent;
+		background-color: hsla(0,0%,40%,0.5);
 		border: 0;
 		clear: none;
 		float: left;
@@ -3712,7 +3712,7 @@ a.post-thumbnail:hover {
 	}
 
 	.secondary-navigation ul ul {
-		background-color: #24890d;
+		background-color: #aaaecd;
 		position: absolute;
 		top: 0;
 		left: -999em;
@@ -3726,7 +3726,7 @@ a.post-thumbnail:hover {
 
 	.secondary-navigation li:hover > a,
 	.secondary-navigation li.focus > a {
-		background-color: #24890d;
+		background-color: #aaaecd;
 		color: #fff;
 	}
 
@@ -3998,8 +3998,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1040px) {
-	#main-content {
-		min-height: 685px;
+	#main-content #secondary{
+		min-height: 548px;
 	}
 	
 	.site-content .has-post-thumbnail .entry-header {
@@ -4036,8 +4036,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1080px) {
-	#main-content {
-		min-height: 695px;
+	#main-content #secondary{
+		min-height: 556px;
 	}
 	
 	.search-box .search-field {
@@ -4098,8 +4098,8 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1110px) {
 	
-	#main-content {
-		min-height: 710px;
+	#main-content #secondary{
+		min-height: 568px;
 	}
 	
 	.archive-header,
@@ -4118,8 +4118,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1218px) {
-	#main-content {
-		min-height: 760px;
+	#main-content #secondary{
+		min-height: 608px;
 	}
 	
 	.archive-header,
@@ -4150,8 +4150,8 @@ a.post-thumbnail:hover {
 }
 
 @media screen and (min-width: 1260px) {
-	#main-content {
-		min-height: 900px;
+	#main-content #secondary {
+		min-height: 720px;
 	}
 	.site-content blockquote.alignleft,
 	.site-content blockquote.alignright {
