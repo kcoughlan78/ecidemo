@@ -22,11 +22,11 @@ echo do_shortcode('[smartslider2 slider="1"]');
 
 
 <ul class="gridBox">
-<a href="http://esztercoughlaninterior.dev:8888/interior-design-consultancy/"><li class="largeBox" id="InteriorDesignConsultancy"><span class="boxSpan">Interior Design Consultancy</span></li></a>
-<a href="http://esztercoughlaninterior.dev:8888/our-packages/"><li class="medBox" id="OurPackages"><span class="boxSpan">Our Packages</span></li></a>
-<a href="http://esztercoughlaninterior.dev:8888/booking/"><li class="smallBox" id="Booking"><span class="boxSpan">Book an appointment</span></li></a>
-<a href="http://esztercoughlaninterior.dev:8888/about-us/"><li class="smallBox" id="AboutUs"><span class="boxSpan">About us</span></li></a>
-<a href="http://esztercoughlaninterior.dev:8888/home-design-blog/"><li class="medBox" id="HomeDesignBlog"><span class="boxSpan">Home Design Blog</span></li></a>
+<a href="http://dev.esztercoughlaninteriors:8888/interior-design-consultancy/"><li class="largeBox" id="InteriorDesignConsultancy"><span class="boxSpan">Interior Design Consultancy</span></li></a>
+<a href="http://dev.esztercoughlaninteriors:8888/our-packages/"><li class="medBox" id="OurPackages"><span class="boxSpan">Our Packages</span></li></a>
+<a href="http://dev.esztercoughlaninteriors:8888/booking/"><li class="smallBox" id="Booking"><span class="boxSpan">Book an appointment</span></li></a>
+<a href="http://dev.esztercoughlaninteriors:8888/about-us/"><li class="smallBox" id="AboutUs"><span class="boxSpan">About us</span></li></a>
+<a href="http://dev.esztercoughlaninteriors:8888/home-design-blog/"><li class="medBox" id="HomeDesignBlog"><span class="boxSpan">Home Design Blog</span></li></a>
 </ul>
 
 <section class="rightBox">

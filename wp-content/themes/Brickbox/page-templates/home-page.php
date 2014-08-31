@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Page
+ * Template Name: Home Page Backup
  *
  * @package WordPress
  * @subpackage Brickbox
