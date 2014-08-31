@@ -9,7 +9,7 @@
 
 get_header();?>
 
-<div id="main" class="site-main">
+<div id="main" class="blog-page site-main">
 
 <div id="main-content" class="main-content">
 
@@ -40,5 +40,5 @@ get_header();?>
 </div><!-- #main-content -->
 
 <?php
-get_sidebar-blog();
+get_sidebar( 'blog' );
 get_footer();

@@ -1,0 +1,13 @@
+/* CSS doc for booking template specifically*/
+
+.booking-page {
+	background-image: url(../images/booking.jpg);
+	background-size:cover;
+}
+
+.blog-page {
+	background-image: url(../images/home-blog-large.jpg);
+	background-size:cover;
+}
+
+
