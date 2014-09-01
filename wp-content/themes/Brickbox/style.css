@@ -3675,7 +3675,8 @@ a.post-thumbnail:hover {
 		clear: none;
 		float: left;
 		margin: 0 0 0 -100%;
-		min-height: 100vh;
+		height: 1500px;
+		overflow:hidden no-scroll;
 		width: 122px;
 	}
 

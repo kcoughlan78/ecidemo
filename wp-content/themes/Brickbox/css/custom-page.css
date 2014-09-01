@@ -1,12 +1,22 @@
 /* CSS doc for booking template specifically*/
 
+.site-main {
+	height:auto;
+}
+
 .booking-page {
-	background-image: url(../images/booking.jpg);
+	background: url(../images/booking.jpg) no-repeat fixed;
 	background-size:cover;
+	background-position: center;
 }
 
 .blog-page {
 	background-image: url(../images/home-blog-large.jpg);
+	background-size:cover;
+}
+
+.about-us-page {
+	background-image: url(../images/about-eci-large.jpg);
 	background-size:cover;
 }
 

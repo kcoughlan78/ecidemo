@@ -30,7 +30,6 @@
 	<?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/home.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom-page.css">
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
