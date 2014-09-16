@@ -35,6 +35,17 @@
   background-color: green;
 }
 
+#InteriorDesignConsultancy {
+	background-image: url(../images/interior-design-consultancy-d15.jpg);
+	background-size:cover;
+}
+
+#OurPackages {
+	background-image: url(../images/ECI-packages.png);
+	background-size:contain;
+}
+
+
 #Booking {
 	background-image: url(../images/booking.jpg);
 	background-size:contain;
@@ -120,6 +131,17 @@
 .smallBox {
   width: 320px;
   background-color: green;
+}
+
+
+#InteriorDesignConsultancy {
+	background-image: url(../images/interior-design-consultancy-d15.jpg);
+	background-size:cover;
+}
+
+#OurPackages {
+	background-image: url(../images/ECI-packages.png);
+	background-size:contain;
 }
 
 #Booking {
@@ -209,6 +231,17 @@
   background-color: green;
 }
 
+
+#InteriorDesignConsultancy {
+	background-image: url(../images/interior-design-consultancy-d15.jpg);
+	background-size:cover;
+}
+
+#OurPackages {
+	background-image: url(../images/ECI-packages.png);
+	background-size:contain;
+}
+
 #Booking {
 	background-image: url(../images/booking.jpg);
 	background-size:contain;
@@ -296,6 +329,17 @@
   background-color: green;
 }
 
+
+#InteriorDesignConsultancy {
+	background-image: url(../images/interior-design-consultancy-d15.jpg);
+	background-size:cover;
+}
+
+#OurPackages {
+	background-image: url(../images/ECI-packages.png);
+	background-size:contain;
+}
+
 #Booking {
 	background-image: url(../images/booking.jpg);
 	background-size:contain;
@@ -379,6 +423,17 @@
 .smallBox {
   width: 115px;
   background-color: green;
+}
+
+
+#InteriorDesignConsultancy {
+	background-image: url(../images/interior-design-consultancy-d15.jpg);
+	background-size:cover;
+}
+
+#OurPackages {
+	background-image: url(../images/ECI-packages.png);
+	background-size:contain;
 }
 
 #Booking {

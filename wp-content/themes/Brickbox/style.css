@@ -2067,8 +2067,8 @@ a.post-thumbnail:hover {
 /* Secondary */
 
 #secondary {
-	background-color: #000;
-	border-top: 1px solid #000;
+	background-color: #6e4d67;
+	border-top: 1px solid #aaaecd;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	clear: both;
 	color: rgba(255, 255, 255, 0.7);
@@ -3088,6 +3088,15 @@ a.post-thumbnail:hover {
 		margin: 0 auto 24px;
 		padding: 0 10px;
 	}
+	
+	.entry-title {
+		font-size: 20px;
+	}
+	
+	.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+    margin: 0 auto;
+    max-width: 100%;
+}
 }
 
 @media screen and (min-width: 401px) {
@@ -3220,6 +3229,15 @@ a.post-thumbnail:hover {
 	.error404 .page-header {
 		margin-bottom: 24px;
 	}
+	
+	.entry-title {
+		font-size: 24px;
+	}
+	
+	.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+    margin: 0 auto;
+    max-width: 100%;
+}
 }
 
 @media screen and (min-width: 594px) {
@@ -3234,6 +3252,15 @@ a.post-thumbnail:hover {
 	.site-content .has-post-thumbnail .entry-header {
 		margin-top: -48px;
 	}
+	
+	.entry-title {
+		font-size: 28px;
+	}
+	
+	.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+    margin: 0 auto;
+    max-width: 100%;
+}
 }
 
 @media screen and (min-width: 673px) {
@@ -3373,6 +3400,14 @@ a.post-thumbnail:hover {
 	.site-info {
 		padding: 15px 30px;
 	}
+	
+	.entry-title {
+		font-size: 28px;
+	}
+	
+	.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 @media screen and (min-width: 783px) {
